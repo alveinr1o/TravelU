@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Timetable Page{% endblock title %}
+{% block content %}
+{% for i in table %}
+<p>
+    {{ i.bus.lokasiawal }}
+    {{ i.bus.lokasiakhir }}
+    {{ i.reservasi.tanggalreservasi|date:"l, j F Y" }}
+    {{ i.reservasi.statusreservasi }}
+    <a href="/hapus/{{i.reservasi.id}}">Hapus</a>
+    <a href="/edit/{{i.reservasi.id}}">Edit</a>
+</p>
+{% endfor %}
+{% endblock content %}

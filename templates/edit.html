@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Update Page{% endblock title %}
+{% block content %}
+<form action="/update/" method="post">
+    {% csrf_token %}
+    <input type="hidden" name="test" value="{{reservasi.id}}">
+    <select name="lokasiawal">
+        <option value="">Lokasi Berangkat</option>
+        <option value="BogorKota">Kota Bogor</option>
+        <option value="Dramaga">Dramaga</option>
+        <option value="Leuwiliang">Leuwiliang</option>
+    </select>
+    <select name="lokasiakhir">
+        <option value="">Lokasi Tujuan</option>
+        <option value="BogorKota">Kota Bogor</option>
+        <option value="Dramaga">Dramaga</option>
+        <option value="Leuwiliang">Leuwiliang</option>
+    </select>
+    <input type="submit" value="Update">
+</form>
+{% endblock content %}

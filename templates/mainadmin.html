@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Admin Main Page{% endblock title %}
+{% block content %}
+{{admin.namaadmin}}
+{% for i in table %}
+<p>
+    {{i.reservasi.penumpangid}}
+    {{i.reservasi.busid}}
+    {{i.bus.lokasiawal}} --&gt;
+    {{i.bus.lokasiakhir}}
+    {{ i.reservasi.tanggalreservasi|date:"l, j F Y" }}
+    {{i.reservasi.statusreservasi}}
+    <a href="/terima/{{i.reservasi.id}}/{{admin.id}}/">terima</a>
+    <a href="/tolak/{{i.reservasi.id}}/{{admin.id}}/">tolak</a>
+</p>
+{% endfor %}
+{% endblock content %}
