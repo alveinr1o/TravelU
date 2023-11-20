@@ -15,7 +15,7 @@
 ### Bahasa Pemrograman
 - HTML
 - CSS
-- PHP
+- Django
 
 ## Anggota Kelompok
 | Nama                  | NIM           | Username Github                   |
