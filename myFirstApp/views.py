@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Penumpang, Reservasi, Bus, Driver, Admin
+from django.utils.safestring import mark_safe
 
 def index(request):
     return render(request, 'index.html')
@@ -8,11 +9,17 @@ def login(request):
     username = request.POST['username']
     password = request.POST['password']
     #SELECT * WHERE username = username, password = password
-    penumpang = Penumpang.objects.get(username = username, password = password)
-    context = {
-        'penumpang' : penumpang,
-    }
-    return render(request, 'login.html', context)
+    penumpang = Penumpang.objects.filter(username = username, password = password)
+    if penumpang.exists(): 
+        context = {
+            'penumpang': penumpang.first(),
+        }
+        return render(request, 'homepage.html', context)
+    else :
+        context = {
+            'alert': mark_safe('<div class="alert"> Your username or password is incorrect </div>')
+        } 
+        return render(request, 'index.html', context)
 
 def reservasi(request):
     penumpang = request.POST['penumpang']
@@ -80,7 +87,7 @@ def daftar(request):
     context = {
         'penumpang' : penumpang,
     }
-    return render(request, 'login.html', context)
+    return render(request, 'homepage.html', context)
 
 def admin(request):
     return render(request, 'admin.html')
