@@ -65,7 +65,7 @@
         rgba(1, 40, 112, 0.262),
         rgba(0, 35, 122, 0.053)
       ),
-      url("assets/bus.png");
+      url('/static/assets/bus.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
