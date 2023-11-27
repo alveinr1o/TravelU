@@ -34,7 +34,7 @@ def reservasi(request):
     context = {
         'penumpang' : akun,
     }
-    return render(request, 'login.html', context)
+    return render(request, 'homepage.html', context)
 
 def jadwal(request, id):
     reservasi = Reservasi.objects.filter(penumpangid = id)
