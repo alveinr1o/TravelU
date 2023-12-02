@@ -9,7 +9,7 @@
 - [Laporan](#Link-Laporan)
 
 ## Deskripsi 
-
+<img src='assets/logo.png'>
 
 ## Bahasa Pemrograman
 - HTML
