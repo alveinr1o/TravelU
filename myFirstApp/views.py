@@ -88,7 +88,7 @@ def daftar(request):
     context = {
         'penumpang' : penumpang,
     }
-    return render(request, 'homepage.html', context)
+    return render(request, 'index.html', context)
 
 def admin(request):
     return render(request, 'admin.html')
