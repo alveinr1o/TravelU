@@ -4,9 +4,8 @@
 
 - [Deskripsi](#deskripsi)
 - [Anggota Kelompok](#anggota-kelompok)
-- [Screenshots](#screenshot)
-- [Doumentasi Kode](#Dokumentasi-Kode-dan-SQL)
-- [Laporan](#Link-Laporan)
+- [Screenshots](#screenshots)
+- [Laporan](#laporan)
 
 ## Deskripsi 
 <img src='static/assets/logo.png'>
@@ -46,3 +45,6 @@
     </tr>
   </tbody>
 </table>
+
+## Laporan 
+<a href="https://docs.google.com/document/d/1uM2PYTRc0r743V6G2IQIleWxzgv4nRu4/edit?usp=drive_link&ouid=111891554987089833375&rtpof=true&sd=true">Laporan</a>
