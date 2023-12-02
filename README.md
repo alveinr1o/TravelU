@@ -4,15 +4,14 @@
 
 - [Deskripsi](#deskripsi)
 - [Anggota Kelompok](#anggota-kelompok)
-- [Website](#website)
+- [Screenshots](#screenshot)
 - [Doumentasi Kode](#Dokumentasi-Kode-dan-SQL)
-- [Doumentasi Video](#Link-Video-Presentasi-di-Youtube)
 - [Laporan](#Link-Laporan)
 
 ## Deskripsi 
 
 
-### Bahasa Pemrograman
+## Bahasa Pemrograman
 - HTML
 - CSS
 - Django
@@ -26,4 +25,25 @@
 | Tubagus Raihan R      | G6401201051   | https://github.com/raihanrizqyansyah|
 
 
-### Website
+## Screenshots
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src='screenshots/userlogin.jpeg'></td>
+      <td><img src='screenshots/userregis.jpeg'></td>
+    </tr>
+    <tr>
+      <td><img src='screenshots/userhomepage.jpeg'></td>
+      <td><img src="screenshots/userjadwal.jpeg"></td>
+    </tr>
+    <tr>
+      <td><img src='screenshots/useredit.jpeg'></td>
+      <td><img src="screenshots/adminlogin.jpeg"></td>
+    </tr>
+    <tr>
+      <sstd><img src='screenshots/adminmain.jpeg'></sstd>
+      <td><img src="screenshots/model.jpeg"></td>
+    </tr>
+  </tbody>
+</table>
