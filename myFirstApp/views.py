@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import Penumpang, Reservasi, Bus, Driver, Admin
 from django.utils.safestring import mark_safe
+from django.contrib.auth import authenticate, login, logout
 
 def index(request):
     return render(request, 'index.html')
@@ -157,3 +158,7 @@ def tolak(request,id,admin):
         'table' : tables,
     }
     return render(request, 'mainadmin.html', context)
+
+def LogoutPage(request):
+    logout(request)
+    return redirect('index')

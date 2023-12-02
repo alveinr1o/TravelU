@@ -18,13 +18,13 @@
 
 .navbar-brand {
     font-weight: 500;
-    color: #005999;
+    color: 	#00415a;
     font-size: 24px;
     transition: 0.3s color;
 }
 
 .login-button {
-    background-color: #005999;
+    background-color: #00415a;
     color: #fff;
     font-size: 14px;
     padding: 8px 20px;
@@ -34,7 +34,7 @@
 }
 
 .login-button:hover {
-    background-color: #0074b3;
+    background-color: #00719c;
 }
 
 .navbar-toggler {
@@ -106,6 +106,14 @@
     width: 100%;
     flex: 1;
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .booking__container form #booking-edit {
+    width: 100%;
+    flex: 1;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
@@ -174,14 +182,14 @@
     border: none;
     font-size: 1.5rem;
     color: var(--white);
-    background-color: #005999;
+    background-color: 	#00415a;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.3s;
   }
   
   .booking__container .btn:hover {
-    background-color: #0060a4;
+    background-color: #00719c;
   }
 
 @media (min-width: 991px) {
@@ -193,7 +201,7 @@
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: #005999;
+        background-color: 	#00415a;
         visibility: hidden;
         transition: 0.3s ease-in-out;
     }
@@ -211,7 +219,7 @@
 }
 
 .hero-section::before {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: url('/static/assets/busjadwal.jpg') center / cover;
     content: "";
     position: absolute;
     top: 0;
