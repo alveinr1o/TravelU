@@ -33,7 +33,7 @@
       <td><img src='screenshots/userlogin.jpeg'></td>
       <td><img src='screenshots/userregis.jpeg'></td>
     </tr>
-    <tr>
+    <tr>    
       <td><img src='screenshots/userhomepage.jpeg'></td>
       <td><img src="screenshots/userjadwal.jpeg"></td>
     </tr>
@@ -42,8 +42,7 @@
       <td><img src="screenshots/adminlogin.jpeg"></td>
     </tr>
     <tr>
-      <sstd><img src='screenshots/adminmain.jpeg'></sstd>
-      <td><img src="screenshots/model.jpeg"></td>
+      <td><img src='screenshots/adminmain.jpeg'></td>
     </tr>
   </tbody>
 </table>
