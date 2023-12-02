@@ -9,6 +9,7 @@
 
 ## Deskripsi 
 <img src='static/assets/logo.png'>
+<p>TravelU adalah sebuah platform online yang dirancang khusus untuk memenuhi kebutuhan perjalanan mahasiswa di IPB University. Dengan fokus utama pada pemesanan tiket bus dan perencanaan perjalanan di luar daerah kawasan kampus, TravelU memberikan kemudahan bagi mahasiswa untuk merencanakan dan melaksanakan perjalanan tanpa kendaraan pribadi. Website ini menyajikan sebuah sistem pemesanan tiket bus yang efisien dan praktis, memungkinkan mahasiswa untuk dengan mudah memesan tiket perjalanan mereka secara online.</p>
 
 ## Bahasa Pemrograman
 - HTML
